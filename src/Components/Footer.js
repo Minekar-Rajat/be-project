@@ -3,7 +3,7 @@ import { NavLink } from "reactstrap";
 
 const Footer = () => {
     return (
-        <div className="px-5 pt-5 pb-2 row" style={{ backgroundColor: 'black', color: 'white' }}>
+        <div className="px-5 pt-5 pb-2 row fonting" style={{ backgroundColor: 'black', color: 'white' }}>
 
             <div className="col-12 col-sm-6 col-md-6 py-4">
 

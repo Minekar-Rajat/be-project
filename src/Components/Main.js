@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Latest from "./Latest";
 import Nav from "./Nav";
+import Options from "./Options";
 import Query from "./Query";
 import Result from "./Result";
 import Text from "./Text";
@@ -24,6 +25,7 @@ const Main = () => {
                 <Route path='/latest' component={Latest} />
                 <Route path='/query' component={Query} />
                 <Route path='/result' component={Result} />
+                <Route path="/options" component={Options} />
                 <Redirect to='/home' />
             </Switch>
             <Footer />

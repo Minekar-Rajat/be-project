@@ -21,7 +21,7 @@ const NavComponent = () => {
 
     return (
         <div>
-            <Navbar className="px-4 py-3" style={{ backgroundImage: "linear-gradient(to left top , darkblue , blue , rgb(98, 110, 214) )" }} dark expand="md">
+            <Navbar className="px-4 py-3 fonting" dark style={{ backgroundColor: "black" }} expand="md">
                 <NavbarBrand href="/">Cyber Bullying Detection</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
